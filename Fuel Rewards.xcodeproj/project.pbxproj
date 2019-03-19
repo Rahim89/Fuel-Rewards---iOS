@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FAD5907224174BF008AE57E /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD5906224174BF008AE57E /* TransactionViewController.swift */; };
+		1FAD5909224176B5008AE57E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD5908224176B5008AE57E /* Transaction.swift */; };
 		265A2C1C2230411B00790D1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265A2C1B2230411B00790D1E /* AppDelegate.swift */; };
 		265A2C1E2230411B00790D1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265A2C1D2230411B00790D1E /* ViewController.swift */; };
 		265A2C212230411B00790D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265A2C1F2230411B00790D1E /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FAD5906224174BF008AE57E /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		1FAD5908224176B5008AE57E /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		265A2C182230411B00790D1E /* Fuel Rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuel Rewards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		265A2C1B2230411B00790D1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		265A2C1D2230411B00790D1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,11 +113,13 @@
 				265A2C4C223173BD00790D1E /* Login */,
 				265A2C1B2230411B00790D1E /* AppDelegate.swift */,
 				265A2C1D2230411B00790D1E /* ViewController.swift */,
+				1FAD5906224174BF008AE57E /* TransactionViewController.swift */,
 				265A2C1F2230411B00790D1E /* Main.storyboard */,
 				265A2C252230411C00790D1E /* Assets.xcassets */,
 				265A2C272230411C00790D1E /* LaunchScreen.storyboard */,
 				265A2C2A2230411C00790D1E /* Info.plist */,
 				265A2C222230411B00790D1E /* Fuel_Rewards.xcdatamodeld */,
+				1FAD5908224176B5008AE57E /* Transaction.swift */,
 			);
 			path = "Fuel Rewards";
 			sourceTree = "<group>";
@@ -298,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAD5907224174BF008AE57E /* TransactionViewController.swift in Sources */,
 				265A2C1E2230411B00790D1E /* ViewController.swift in Sources */,
+				1FAD5909224176B5008AE57E /* Transaction.swift in Sources */,
 				265A2C1C2230411B00790D1E /* AppDelegate.swift in Sources */,
 				265A2C532231882300790D1E /* Login View Controller.swift in Sources */,
 				265A2C242230411B00790D1E /* Fuel_Rewards.xcdatamodeld in Sources */,
